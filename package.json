@@ -2,7 +2,7 @@
   "name": "codigos-exposicion",
   "version": "1.0.0",
   "description": "Codigos de ejemplo utilizados para la presentacion",
-  "main": "complejo.js",
+  "main": "complejo-test.js",
   "directories": {
     "test": "test"
   },
