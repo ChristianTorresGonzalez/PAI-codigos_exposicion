@@ -18,9 +18,10 @@
   "homepage": "https://github.com/ChristianTorresGonzalez/PAI-codigos_exposicion#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
     "mocha": "^7.1.1"
   },
-  "scripts":{
-    "test": "mocha test/complejo-test.js"
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha test/complejo-test.js"
   }
 }
