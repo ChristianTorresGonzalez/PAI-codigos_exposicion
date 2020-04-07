@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Codigos de ejemplo utilizados para la presentacion",
   "main": "complejo.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/ChristianTorresGonzalez/PAI-codigos_exposicion/issues"
   },
-  "homepage": "https://github.com/ChristianTorresGonzalez/PAI-codigos_exposicion#readme"
+  "homepage": "https://github.com/ChristianTorresGonzalez/PAI-codigos_exposicion#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  },
+  "scripts":{
+    "test": "mocha test/complejo-test.js"
+  }
 }
