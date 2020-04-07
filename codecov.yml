@@ -46,5 +46,9 @@ parsers:
       loop: yes
       method: no
       macro: no
+
+- name: Codecov
+  uses: codecov/codecov-action@v1.0.6
+
   
 
