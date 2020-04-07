@@ -111,7 +111,7 @@ function() {
     */
     it ("Comprobando valor calculado de parteImaginaria de Mandelbrot", function() {
       let resultado = numeroComplejo.calcularParteImaginaria();
-      expect(resultado).to.equal(1200);
+      expect(resultado).to.equal(120);
     });
   });
 
