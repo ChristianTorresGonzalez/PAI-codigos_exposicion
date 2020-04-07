@@ -23,5 +23,8 @@
   },
   "scripts": {
     "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha test/complejo-test.js"
+  },
+  "devDependencies": {
+    "codecov": "^3.6.5"
   }
 }
