@@ -51,5 +51,5 @@ parsers:
   uses: codecov/codecov-action@v1.0.6
 
 github_enterprise:
-  webhook_secret: some_secret_string
+  webhook_secret: 9b641e22-b814-4b3b-b256-41995102d520
 
