@@ -1,5 +1,5 @@
 steps:
-  - uses: actions/checkout@master
-  - uses: codecov/codecov-action@v1
+- uses: actions/checkout@master
+- uses: codecov/codecov-action@v1
   with:
     token: 9b641e22-b814-4b3b-b256-41995102d520
