@@ -1,7 +1,7 @@
 name: Codecov
-  - uses: codecov/codecov-action@v1.0.6
-    with:
-      # User defined upload name. Visible in Codecov UI
-      name: # optional
-      # Repository upload token - get it from codecov.io. Required only for private repositories
-      token: false
+    - uses: codecov/codecov-action@v1.0.6
+      with:
+        # User defined upload name. Visible in Codecov UI
+        name: # optional
+        # Repository upload token - get it from codecov.io. Required only for private repositories
+        token: false
