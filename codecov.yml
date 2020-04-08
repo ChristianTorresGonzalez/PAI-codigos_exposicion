@@ -50,5 +50,6 @@ parsers:
 - name: Codecov
   uses: codecov/codecov-action@v1.0.6
 
-  
+github_enterprise:
+  webhook_secret: some_secret_string
 
