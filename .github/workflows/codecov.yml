@@ -1,8 +1,17 @@
-name: Codecov
+name: Node.js CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  steps:
   - uses: codecov/codecov-action@v1.0.6
   - uses: actions/checkout@master
-with:
+    with:
     # Repository upload token - get it from codecov.io. Required only for private repositories
-  token: 9b641e22-b814-4b3b-b256-41995102d520
+      token: 9b641e22-b814-4b3b-b256-41995102d520
     # Specify whether or not CI build should fail if Codecov runs into an error during upload
-  fail_ci_if_error: false
+      fail_ci_if_error: false
