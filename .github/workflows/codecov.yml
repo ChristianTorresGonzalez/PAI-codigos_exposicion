@@ -23,3 +23,5 @@ jobs:
       run: npm ci
     - name: Reporte CodeCov
       run: npm test
+    - name: Subiendo Reporte
+      run: bash <(curl -s https://codecov.io/bash) -t 9b641e22-b814-4b3b-b256-41995102d520

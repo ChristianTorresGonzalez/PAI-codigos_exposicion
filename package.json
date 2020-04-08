@@ -22,7 +22,7 @@
     "mocha": "^7.1.1"
   },
   "scripts": {
-    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha && bash <(curl -s https://codecov.io/bash) -t 9b641e22-b814-4b3b-b256-41995102d520"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha && bash <\\(curl -s https://codecov.io/bash\\) -t 9b641e22-b814-4b3b-b256-41995102d520"
   },
   "devDependencies": {
     "codecov": "^3.6.5"
