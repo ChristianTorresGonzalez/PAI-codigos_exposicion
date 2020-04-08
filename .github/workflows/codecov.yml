@@ -1,20 +1,7 @@
-name: CodeCov
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-jobs:
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - uses: codecov/codecov-action@v1.0.6
-      with:
+- name: Codecov
+  - uses: codecov/codecov-action@v1.0.6
+    with:
+      # User defined upload name. Visible in Codecov UI
+      name: # optional
       # Repository upload token - get it from codecov.io. Required only for private repositories
-        token: 9b641e22-b814-4b3b-b256-41995102d520
-      # Specify whether or not CI build should fail if Codecov runs into an error during upload
-        fail_ci_if_error: false
+      token: false
