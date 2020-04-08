@@ -19,6 +19,7 @@
 
 const expect = require("chai").expect;
 let complejo = require("../src/complejo");
+let manbdelbrot = require("../src/mendelbrot");
 
 let numeroComplejo = new complejo.numeroComplejo(5, 10);
 describe("Test unitarios para clase numero complejo:",
