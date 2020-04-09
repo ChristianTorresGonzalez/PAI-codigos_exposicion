@@ -89,7 +89,7 @@ function() {
     */
     it ("Comprobando cuadrado de parteImaginaria del numero Complejo", function() {
       let cuadrado = numeroComplejo.cuadradoParteImaginaria();
-      expect(cuadrado).to.equal(-900);
+      expect(cuadrado).to.equal(900);
     });
   });
 
@@ -102,7 +102,7 @@ function() {
     */
     it ("Comprobando valor calculado de parteReal de Mandelbrot", function() {
       let resultado = numeroComplejo.calcularParteReal();
-      expect(resultado).to.equal(-500);
+      expect(resultado).to.equal(-900);
     });
 
     /**
