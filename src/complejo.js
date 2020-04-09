@@ -76,7 +76,11 @@ class numeroComplejo {
   * complejo
   */
   cuadradoParteReal() {
-    return this.parteReal * this.parteReal;
+    if (this.parteReal !== 0)
+      return this.parteReal * this.parteReal;
+    else {
+      return 0;
+    }
   }
 
   /**
