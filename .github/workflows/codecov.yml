@@ -21,8 +21,8 @@ jobs:
 
     # - name: Instalando modulos
     #   run: npm ci
-    # - name: Reporte CodeCov
-    #   run: npm test
+    - name: Reporte CodeCov
+      run: npm test
 
     
         # Repository upload token - get it from codecov.io. Required only for private repositories
