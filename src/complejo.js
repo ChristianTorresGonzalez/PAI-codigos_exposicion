@@ -125,6 +125,18 @@ class numeroComplejo {
   mayorQueDos() {
     return ((this.parteReal * this.parteImaginaria) > 2 ) ? true : false;
   }
+
+  mayorQueTres() {
+    return ((this.parteReal * this.parteImaginaria) > 2 ) ? true : false;
+  }
+
+  mayorQueCuatro() {
+    return ((this.parteReal * this.parteImaginaria) > 2 ) ? true : false;
+  }
+
+  mayorQueCinco() {
+    return ((this.parteReal * this.parteImaginaria) > 2 ) ? true : false;
+  }
 }
 
 module.exports = {numeroComplejo: numeroComplejo};
