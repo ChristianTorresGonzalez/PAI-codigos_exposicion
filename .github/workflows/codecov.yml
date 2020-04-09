@@ -2,8 +2,6 @@ name: Codecov
 
 # Indicamos cuando queremos que se actualize al codecov
 on:
-  commit:
-    branches: [ master ]
   push:
     branches: [ master ]
   pull_request:
