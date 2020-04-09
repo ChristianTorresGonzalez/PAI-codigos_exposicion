@@ -89,7 +89,7 @@ function() {
     */
     it ("Comprobando cuadrado de parteImaginaria del numero Complejo", function() {
       let cuadrado = numeroComplejo.cuadradoParteImaginaria();
-      expect(cuadrado).to.equal(500);
+      expect(cuadrado).to.equal(-900);
     });
   });
 
