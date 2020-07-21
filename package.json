@@ -24,6 +24,6 @@
     "test": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "devDependencies": {
-    "codecov": "^3.6.5"
+    "codecov": "^3.7.1"
   }
 }
